@@ -1,0 +1,82 @@
+/* Add the selectors, properties, and values necessary 
+   to match the index.html file to the mockup.png image. */
+
+
+body{
+   width: 500px;
+   height: auto;
+   margin: auto;
+}
+
+h1{
+    
+    font-size: 50px;
+    color: #e7d15e;
+    background-color: #02537d;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Bodini';
+}
+h2{
+    font-size: 25px;
+    color: #e7d15e;
+    background-color: #02537d;
+    margin: 0px;
+    line-height: 45px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Bodini';
+}
+section{
+    font-size: 25px;
+    color: #5aaacc;
+    background-color: #191814;
+    margin: 0px;
+    line-height: 35px;
+    padding: 25px;
+    font-family: 'Bodini';
+}
+p{
+    background-image: url('../images/bricks.jpg');
+    background-repeat: no-repeat;
+    height: auto;
+    font-size: 10px;
+    padding-right: 35px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #191814;
+    background-color: #e8e4e0;
+    line-height: 15px;
+    margin: 0px;
+    font-family: 'Tahoma', 'sans-serif';
+    
+}
+span.dropcap{
+    font-size: 50px;
+    font-family: 'Bodini';
+}
+footer{
+    font-size: 10px;
+    color: #e7d15e;
+    background-color: #191814;
+    line-height: 20px;
+    padding-top: 0px;
+    padding-left: 30px;
+    font-family: 'Tahoma', 'sans-serif';
+}
+img#banner{
+    width: 500px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    background-color: chartreuse;
+    line-height: 40px;
+}
+

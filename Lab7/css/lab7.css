@@ -1,0 +1,57 @@
+/*****************************************************
+ * Lab 7
+ * CSCI 145
+ * Add selectors and rules to this file and 
+ * modify the accompanying HTML to create
+ * the style and layout described in the assignment.
+ *****************************************************/
+
+body{
+    font-family: "Lato", sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    background-color: rgb(255, 196, 0);
+    line-height: 80px;
+    padding: 25px;
+    margin: 0%;
+}
+
+h2{
+    text-align: center;
+    line-height: 25px;
+    padding: 10px; 
+    margin: 0%;
+}
+
+
+div#sidebar{
+    height: 600px;
+    width: 25%;
+    background-color: aqua;
+    padding: 0px;
+    float: left;
+}
+
+div#main{
+    height: 600px;
+    width: 75%;
+    margin: 0%;
+    background-color: blue;
+    padding: 0px;
+    float: right;
+}
+
+img#crazyboxes{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+footer{
+    background-color: chartreuse;
+    font-size: 12px;
+    line-height: 25px;
+    padding: 15px;
+    float: right;
+}

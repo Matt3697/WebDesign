@@ -1,0 +1,64 @@
+body{
+    font-family: "Lato", sans-serif;
+    background-color: white;
+    margin: 0%;
+}
+h1{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    background-color: rgb(255, 196, 0);
+    line-height: 80px;
+    padding: 25px;
+    margin: 0%
+}
+
+h2{
+    text-align: center;
+    line-height: 35px;
+    padding: 20px; 
+    margin-right: 100px;
+}
+
+
+div#main{
+    height: 600px;
+    width: 75%;
+    margin: 0%;
+    background-color: #f1f1f1;
+    padding: 0px;
+    float: right;
+}
+
+img#logo{
+    width: 65px;
+    height: 65px;
+    float: left;
+
+}
+img#guitar{
+    width: 25%;
+    height: 25%;
+    padding-left: 100px;
+}
+img#guy{
+    width: 25%;
+    height: 25%;
+    padding-left: 100px;
+}
+img#house{
+    width: 15%;
+    height: 15%;
+    padding-left: 480px;
+}
+p{
+    padding-left: 200px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+footer{
+    background-color: chartreuse;
+    font-size: 12px;
+    line-height: 25px;
+    padding: 15px;
+    float: right;
+}
