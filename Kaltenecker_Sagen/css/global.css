@@ -34,11 +34,15 @@ header{
     transition: 150ms;
 }
 
-#shirt{
+#menClothes{
     float: left;
     margin: 5px;
-    padding: 10px 20px 10px 20px;
+    padding: 3px 5px 3px 5px;
     height: 100px;
+    border: 0.5px solid #3335;
+}
+#menClothes:hover{
+    background-color: #333
 }
 #nav {
     margin: 8px 10px 7px 10px;
@@ -86,7 +90,17 @@ header{
 }
 
 
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Playfair Display SC';
+    font-weight: bold;
+    color: #bfbcb8;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
 
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
 
 
