@@ -34,16 +34,27 @@ header{
     transition: 150ms;
 }
 
-#menClothes{
+#clothes{
     float: left;
     margin: 5px;
     padding: 3px 4px 4px 3px;
     height: 100px;
     border: 0.5px solid #3335;
 }
-#menClothes:hover{
+#clothes:hover{
     background-color: #3335;
 }
+
+backg {
+    background-image: url("../images/background5.jpg");
+    margin: 0%;
+    float: left;
+    height: 733px;
+    width: 1000px;
+    repeat: none;
+    opacity: 0.8;
+}
+
 #nav {
     margin: 8px 10px 7px 10px;
     padding: 0px;
@@ -93,14 +104,19 @@ header{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Playfair Display SC';
     font-weight: bold;
-    color: #333;
+    color: rgb(29, 28, 28);
     margin-bottom: 0px;
     margin-top: 30px;
+    padding-left: 10px;
 }
 
 p{
     font-family: 'Roboto Condensed', sans-serif;
 }
+body{
+    background-color: rgb(77, 77, 77)
+}
+
 
 
 
