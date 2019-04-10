@@ -1,6 +1,5 @@
 <!--
 Scott Kaltenecker
-Matthew Sagen
 CS 145 Web Design
 Klik Final Project -- index.html
 4/8/2019
@@ -8,13 +7,23 @@ Klik Final Project -- index.html
 
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="utf-8">
         <title>Klik</title>
 
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        
         <!--    Stylesheets     -->
         <link href="css/global.css" rel="stylesheet" type="text/css">
-<!--        <link href="css/main.css" rel="stylesheet" type="text/css">-->
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+
+        <!--    jquery    -->
+        <!--    slick   -->
+        
+
 
         <!--    FontAwesome     -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -26,34 +35,65 @@ Klik Final Project -- index.html
         <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     </head>
 
-  
+
     <body>
         <header>
+
             <div class="container">
                 <a href="index.html"> <img src="images/klik-logo.png" id="logo"> </a>
                 <ul id="nav">
                     <li><a href="index.html" id="first-link">Home</a></li>
-                    <li><a href="html/new.html">New</a></li>
-                    <li><a href="html/women.html">Women</a></li>
-                    <li><a href="html/men.html">Men</a></li>
-                    <li><a href="html/cart.html">Cart</a></li>
+                    <li><a href="index.html">New</a></li>
+                    <li><a href="index.html">Women</a></li>
+                    <li><a href="index.html">Men</a></li>
+                    <li><a href="index.html">Cart</a></li>
                 </ul>
-                
+
                 <div class="clear"></div>
             </div>
-            
         </header>
-    `   <backg>
-            <main>
-                
-                <h1>
-                    From Cost Friendly To Extremely Trendy
-                </h1>
-                <h1>
-                    We Have What you Need!
-                </h1>
-               
-            </main>
-        </backg>
+
+        <!--        <main>-->
+
+        <div class="your-class">
+            <div><img src="images/klik-logo.png"></div>
+            <div><img src="images/klik-logo.png"></div>
+            <div><img src="images/klik-logo.png"></div>
+        </div>
+
+<!--        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>-->
+<!--        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+<!--        <script type="text/javascript" src="slick/slick.min.js"></script>-->
+
+<!--
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.your-class').slick({
+                    dots:true,
+                    infinite: true,
+                    speed: 300,
+                    slidesToShow: 1,
+                    centerMode: true,
+                    variableWidth: true
+                });
+            });
+        </script>
+-->
+
+
+        <!--
+<h1>
+Header 1
+</h1>
+<p>
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+
+</p>
+-->
+
+
+
+        <!--        </main>-->
     </body>
+
 </html>
